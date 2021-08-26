@@ -12,7 +12,7 @@ class Config:
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     FLASKY_MAIL_SUBJECT_PREFIX = '[BLOOGERR]'
     FLASKY_MAIL_SENDER = 'BLOOGERR Admin <flasky@example.com>'
-    FLASKY_ADMIN = os.environ.get('BLOOGERR_ADMIN')
+    BLOOGERR_ADMIN = os.environ.get('BLOOGERR_ADMIN')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     @staticmethod
